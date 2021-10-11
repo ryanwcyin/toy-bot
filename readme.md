@@ -53,4 +53,5 @@ python main.py bt data/bnbustd.csv 15m
 - [ ] multiple data for backtest
 - [ ] Paper trade
 - [X] Send logs to Telegram
+- [ ] Refactor the telegram logs to async
 - [ ] Streamlit dashboard

@@ -26,10 +26,14 @@ project
     secrets
     ├── dev
     │   ├── binance_api_key
-    │   └── binance_api_secret
+    │   ├── binance_api_secret
+    │   ├── telegram_id
+    │   └── telegram_token
     └── prod
-        ├── binance_api_key
-        └── binance_api_secret
+    │   ├── binance_api_key
+    │   ├── binance_api_secret
+    │   ├── telegram_id
+    │   └── telegram_token
     ```
 
 ## To Run :runner:
@@ -48,5 +52,5 @@ python main.py bt data/bnbustd.csv 15m
 - [ ] Move data to DB
 - [ ] multiple data for backtest
 - [ ] Paper trade
-- [ ] Send logs to Telegram
+- [X] Send logs to Telegram
 - [ ] Streamlit dashboard

@@ -1,0 +1,16 @@
+streamlit
+pandas
+websocket-client
+python-binance
+backtrader
+TA-Lib
+loguru
+fastapi
+python-dotenv
+plotly
+scipy
+matplotlib==3.2.2
+git+https://github.com/quantopian/pyfolio
+jupyter
+jupyterlab
+typer
